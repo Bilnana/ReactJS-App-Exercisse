@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+body {
+  background-color: #ffffff;
+  
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+.header ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+.header ul {
+  text-align: center;
+  background-color:#ff531a;
+  padding: 0;
+}
+.header ul li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.header ul a:hover,a:focus{
+  background-color:#737373;
+}
+.body-content {
+  background-color: #FFF;
+  padding: 20px;
+  width:80%;
+  margin: auto;
+  color: #262626;
+}
+.body-content h2 {
+  padding: 0;
+  margin: 0;
+}
+.body-content li {
+  margin-bottom: 10px;
+}
+
+
+
+/*STUFF*/
+.container{
+  text-align: center;
+}
+.student-name {
+  padding: 15px;
+  font-size: 20px;
+}
+
+.card{
+  display: block;
+  background-color: #ff794d;
+  width: 40%;
+  padding: 20px 20px;
+  margin:20px auto;
+  font-size:20px;
+}
+.card-content{
+  margin-top:20px;
+  color: #333333;
+}
+.submit-button{
+  margin-top: 20px;
+  background-color:#ff8000;
+  border: none;
+  padding: 20px;
+  font-size:20px;
+  color: #fff;
+  transition:  0.5s ease;
+  cursor:pointer;
+
+}
+
+.submit-button:hover,.submit-button:focus {
+  background-color:#ff531a;
+  color:  #f2f2f2;
+}
+
+.name{
+  color:#ff531a;
+  font-weight: bold;
+}
+
+/*Courses*/
+
+.courses-list{
+  width:35%;
+  margin: auto;
+}
+.course-item p{
+  background-color: #52B3D9;
+  color: #fff;
+  padding:20px;
+  margin-top:20px;
+  cursor: pointer;
+}
+
+.course-item p:hover{
+  color: #fff;
+  background-color:#446CB3;
+}
+
+
+
+.course-item p:active{
+  color: #fff;
+  background-color:#446CB3;
+}
